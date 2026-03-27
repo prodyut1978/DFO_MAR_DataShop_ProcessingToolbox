@@ -17,10 +17,12 @@ dependencies = [
     # --- scientific stack ---
     "numpy>=2.3",
     "pandas>=2.3",
-    "scipy",
-    "matplotlib",
-    "netCDF4",
-    "gsw",
+    "scipy>=1.16.3",
+    "matplotlib>=3.7.5",
+    "netcdf4>=1.7.2",
+    "xarray>=2023.1.0",
+    "gsw>=3.6.20",
+    "click>=6.6",
 
     # --- datashop toolbox dependencies ---
     "dotenv>=0.9.9",
