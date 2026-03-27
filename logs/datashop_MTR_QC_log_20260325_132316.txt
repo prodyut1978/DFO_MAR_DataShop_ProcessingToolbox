@@ -1,4 +1,0 @@
-2026-03-25 13:23:16,233 [INFO] Logger file initialized.
-2026-03-25 13:23:16,938 [INFO] Log window initialized.
-2026-03-25 13:23:16,946 [INFO] Application started. Use Start QC to begin.
-2026-03-25 13:23:21,422 [INFO] Exit Program clicked — setting exit_requested and quitting.
