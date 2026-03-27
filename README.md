@@ -61,8 +61,6 @@ uv sync
 
 ## 📁 Package Structure
 
-## Repository Structure
-
 ```text
 DFO_MAR_DataShop_ProcessingToolbox/
 ├── src/
@@ -79,8 +77,8 @@ DFO_MAR_DataShop_ProcessingToolbox/
 │   ├── CoTeDe/
 │   │   └── qc.py                        # Custom QC tests
 │
-├── run_SEABIRD_tools.py                 # Example Sea-Bird runner
-├── run_MTR_tools.py                     # Example MTR runner
+├── ▶️ run_SEABIRD_tools.py                 # Example Sea-Bird runner to Load DFO standard .CNV files
+├── ▶️ run_MTR_tools.py                     # Example MTR runner to process MTR Data
 ├── README.md
 └── ODF_File_Specification.md
 ``
