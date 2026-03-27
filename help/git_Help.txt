@@ -1,0 +1,90 @@
+Open PowerShell inside your project folder:
+
+cd C:\DEV\DFO_MAR_DataShop_ProcessingToolbox
+git init
+
+2. Add a .gitignore (IMPORTANT)
+
+Create a .gitignore file to avoid pushing junk (venv, temp files, etc.)
+
+>>>  New-Item .gitignore
+
+Recommended .gitignore for Python:
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (important for your case)
+sampledata/
+*.cnv
+*.xml
+
+3. Stage and commit your code
+git add .
+git commit -m "Initial commit - DFO MAR DataShop Processing Toolbox"
+
+
+4. Create a GitHub repository
+
+Go to 👉 https://github.com/new
+
+Fill in:
+
+Repository name: DFO_MAR_DataShop_ProcessingToolbox
+Choose Private (recommended for DFO work)
+❗ Do NOT initialize with README (since you already have code)
+
+Click Create repository
+
+
+
+5. Connect your local repo to GitHub
+
+GitHub will show commands — use this version:
+
+git remote add origin https://github.com/YOUR_USERNAME/DFO_MAR_DataShop_ProcessingToolbox.git
+git branch -M main
+git push -u origin main
+
+👉 Replace YOUR_USERNAME with your GitHub username
+
+
+
+
+
+
+****************** Future workflow *****************************************
+
+Whenever you make changes:
+
+git add .
+git commit -m "your message"
+git push
+
+
+
+
+
+
+
+
+
+
+

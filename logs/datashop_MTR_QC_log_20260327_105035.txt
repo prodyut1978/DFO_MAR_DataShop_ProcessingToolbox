@@ -1,0 +1,286 @@
+2026-03-27 10:50:42,039 [INFO] Logger file initialized.
+2026-03-27 10:50:47,232 [INFO] Log window initialized.
+2026-03-27 10:50:47,236 [INFO] Application started. Use Start QC to begin.
+2026-03-27 10:50:51,055 [INFO] Radio button is checked
+2026-03-27 10:50:52,215 [INFO] Start QC button clicked.
+2026-03-27 10:50:52,217 [INFO] Review QC Mode selected.
+2026-03-27 10:51:24,137 [INFO] QC Inputs Selected:
+  • QC Operator : Prodyut Roy
+  • Input Path  : C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_2_Assign_QFlag
+  • Output Path : C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo
+  • Metadata    : C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+  • BatchName    : BCD-2017999
+
+2026-03-27 10:51:24,139 [INFO] Starting QC Thermograph Data task by Prodyut Roy on C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_2_Assign_QFlag
+2026-03-27 10:51:24,142 [INFO] Changed working dir to the input directory: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_2_Assign_QFlag
+2026-03-27 10:51:24,148 [INFO] Review QC Mode: Creating new reviewed output folder, name: Step_3_Review_QFlag_with timestamp.
+2026-03-27 10:51:24,152 [INFO] Created new reviewed output folder: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124
+2026-03-27 10:51:24,154 [INFO] Created a output data folder name, Step_2_Quality_Flagging 
+2026-03-27 10:51:24,157 [INFO] Path for Step_2_Quality_Flagging: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124
+2026-03-27 10:51:24,160 [INFO] Reading file 1 of 9: MTR_BCD2017999_000_1273003_1800.ODF
+2026-03-27 10:51:24,161 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:51:24,733 [INFO] Filename verified: MTR_BCD2017999_000_1273003_1800.ODF
+2026-03-27 10:51:42,088 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:51:42,120 [INFO] Determined QC window for MTR_BCD2017999_000_1273003_1800.ODF: 2017-03-28 13:15:00 to 2017-05-13 19:00:00
+2026-03-27 10:51:42,122 [INFO] QC Mode for this file MTR_BCD2017999_000_1273003_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:51:43,150 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:14,279 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:14,295 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:14,297 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:14,305 [INFO] No quality flag changes were made for MTR_BCD2017999_000_1273003_1800.ODF
+2026-03-27 10:52:14,318 [INFO] Writing file 1 of 9: MTR_BCD2017999_000_1273003_1800.ODF
+2026-03-27 10:52:14,320 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:14,489 [INFO] QC completed for [1/9]: MTR_BCD2017999_000_1273003_1800.ODF
+2026-03-27 10:52:14,491 [INFO] Saved [1/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_000_1273003_1800.ODF
+2026-03-27 10:52:14,492 [INFO] Reading file 2 of 9: MTR_BCD2017999_001_10011598_1800.ODF
+2026-03-27 10:52:14,494 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:14,780 [INFO] Filename verified: MTR_BCD2017999_001_10011598_1800.ODF
+2026-03-27 10:52:14,801 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:14,815 [INFO] Determined QC window for MTR_BCD2017999_001_10011598_1800.ODF: 2017-03-28 15:45:00 to 2017-07-27 08:30:00
+2026-03-27 10:52:14,817 [INFO] QC Mode for this file MTR_BCD2017999_001_10011598_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:14,976 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:30,219 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:30,234 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:30,238 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:30,246 [INFO] No quality flag changes were made for MTR_BCD2017999_001_10011598_1800.ODF
+2026-03-27 10:52:30,256 [INFO] Writing file 2 of 9: MTR_BCD2017999_001_10011598_1800.ODF
+2026-03-27 10:52:30,258 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:30,352 [INFO] QC completed for [2/9]: MTR_BCD2017999_001_10011598_1800.ODF
+2026-03-27 10:52:30,354 [INFO] Saved [2/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_001_10011598_1800.ODF
+2026-03-27 10:52:30,356 [INFO] Reading file 3 of 9: MTR_BCD2017999_002_10231582_1800.ODF
+2026-03-27 10:52:30,357 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:30,656 [INFO] Filename verified: MTR_BCD2017999_002_10231582_1800.ODF
+2026-03-27 10:52:30,680 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:30,690 [INFO] Determined QC window for MTR_BCD2017999_002_10231582_1800.ODF: 2017-03-28 14:20:00 to 2017-11-15 15:10:00
+2026-03-27 10:52:30,692 [INFO] QC Mode for this file MTR_BCD2017999_002_10231582_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:30,858 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:34,202 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:34,219 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:34,223 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:34,230 [INFO] No quality flag changes were made for MTR_BCD2017999_002_10231582_1800.ODF
+2026-03-27 10:52:34,245 [INFO] Writing file 3 of 9: MTR_BCD2017999_002_10231582_1800.ODF
+2026-03-27 10:52:34,247 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:34,346 [INFO] QC completed for [3/9]: MTR_BCD2017999_002_10231582_1800.ODF
+2026-03-27 10:52:34,350 [INFO] Saved [3/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_002_10231582_1800.ODF
+2026-03-27 10:52:34,353 [INFO] Reading file 4 of 9: MTR_BCD2017999_003_10011599_1800.ODF
+2026-03-27 10:52:34,354 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:34,661 [INFO] Filename verified: MTR_BCD2017999_003_10011599_1800.ODF
+2026-03-27 10:52:34,684 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:34,694 [INFO] Determined QC window for MTR_BCD2017999_003_10011599_1800.ODF: 2017-03-28 17:00:00 to 2017-05-14 18:30:00
+2026-03-27 10:52:34,696 [INFO] QC Mode for this file MTR_BCD2017999_003_10011599_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:34,867 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:42,485 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:42,500 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:42,503 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:42,510 [INFO] No quality flag changes were made for MTR_BCD2017999_003_10011599_1800.ODF
+2026-03-27 10:52:42,522 [INFO] Writing file 4 of 9: MTR_BCD2017999_003_10011599_1800.ODF
+2026-03-27 10:52:42,523 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:42,615 [INFO] QC completed for [4/9]: MTR_BCD2017999_003_10011599_1800.ODF
+2026-03-27 10:52:42,618 [INFO] Saved [4/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_003_10011599_1800.ODF
+2026-03-27 10:52:42,620 [INFO] Reading file 5 of 9: MTR_BCD2017999_004_10022513_1800.ODF
+2026-03-27 10:52:42,622 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:42,927 [INFO] Filename verified: MTR_BCD2017999_004_10022513_1800.ODF
+2026-03-27 10:52:42,945 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:42,955 [INFO] Determined QC window for MTR_BCD2017999_004_10022513_1800.ODF: 2017-03-28 17:00:00 to 2017-11-15 17:30:00
+2026-03-27 10:52:42,958 [INFO] QC Mode for this file MTR_BCD2017999_004_10022513_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:43,130 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:45,967 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:45,984 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:45,986 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:45,996 [INFO] No quality flag changes were made for MTR_BCD2017999_004_10022513_1800.ODF
+2026-03-27 10:52:46,009 [INFO] Writing file 5 of 9: MTR_BCD2017999_004_10022513_1800.ODF
+2026-03-27 10:52:46,011 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:46,097 [INFO] QC completed for [5/9]: MTR_BCD2017999_004_10022513_1800.ODF
+2026-03-27 10:52:46,098 [INFO] Saved [5/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_004_10022513_1800.ODF
+2026-03-27 10:52:46,101 [INFO] Reading file 6 of 9: MTR_BCD2017999_005_10352169_1800.ODF
+2026-03-27 10:52:46,103 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:46,408 [INFO] Filename verified: MTR_BCD2017999_005_10352169_1800.ODF
+2026-03-27 10:52:46,428 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:46,437 [INFO] Determined QC window for MTR_BCD2017999_005_10352169_1800.ODF: 2017-03-28 19:00:00 to 2017-11-15 19:10:00
+2026-03-27 10:52:46,440 [INFO] QC Mode for this file MTR_BCD2017999_005_10352169_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:46,603 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:48,507 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:48,526 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:48,528 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:48,536 [INFO] No quality flag changes were made for MTR_BCD2017999_005_10352169_1800.ODF
+2026-03-27 10:52:48,547 [INFO] Writing file 6 of 9: MTR_BCD2017999_005_10352169_1800.ODF
+2026-03-27 10:52:48,549 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:48,635 [INFO] QC completed for [6/9]: MTR_BCD2017999_005_10352169_1800.ODF
+2026-03-27 10:52:48,637 [INFO] Saved [6/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_005_10352169_1800.ODF
+2026-03-27 10:52:48,640 [INFO] Reading file 7 of 9: MTR_BCD2017999_006_2309416_1800.ODF
+2026-03-27 10:52:48,642 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:48,905 [INFO] Filename verified: MTR_BCD2017999_006_2309416_1800.ODF
+2026-03-27 10:52:48,923 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:48,932 [INFO] Determined QC window for MTR_BCD2017999_006_2309416_1800.ODF: 2017-05-03 18:00:00 to 2017-11-15 19:50:00
+2026-03-27 10:52:48,935 [INFO] QC Mode for this file MTR_BCD2017999_006_2309416_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:49,088 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:52,400 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:52,416 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:52,419 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:52,428 [INFO] No quality flag changes were made for MTR_BCD2017999_006_2309416_1800.ODF
+2026-03-27 10:52:52,440 [INFO] Writing file 7 of 9: MTR_BCD2017999_006_2309416_1800.ODF
+2026-03-27 10:52:52,441 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:52,514 [INFO] QC completed for [7/9]: MTR_BCD2017999_006_2309416_1800.ODF
+2026-03-27 10:52:52,516 [INFO] Saved [7/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_006_2309416_1800.ODF
+2026-03-27 10:52:52,518 [INFO] Reading file 8 of 9: MTR_BCD2017999_007_1273004_1800.ODF
+2026-03-27 10:52:52,520 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:52,822 [INFO] Filename verified: MTR_BCD2017999_007_1273004_1800.ODF
+2026-03-27 10:52:52,840 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:52,851 [INFO] Determined QC window for MTR_BCD2017999_007_1273004_1800.ODF: 2017-03-28 12:30:00 to 2017-11-15 13:00:00
+2026-03-27 10:52:52,853 [INFO] QC Mode for this file MTR_BCD2017999_007_1273004_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:53,025 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:52:55,050 [INFO] Figure: Continue clicked.
+2026-03-27 10:52:55,064 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:52:55,066 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:52:55,072 [INFO] No quality flag changes were made for MTR_BCD2017999_007_1273004_1800.ODF
+2026-03-27 10:52:55,085 [INFO] Writing file 8 of 9: MTR_BCD2017999_007_1273004_1800.ODF
+2026-03-27 10:52:55,086 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:52:55,175 [INFO] QC completed for [8/9]: MTR_BCD2017999_007_1273004_1800.ODF
+2026-03-27 10:52:55,177 [INFO] Saved [8/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_007_1273004_1800.ODF
+2026-03-27 10:52:55,180 [INFO] Reading file 9 of 9: MTR_BCD2017999_008_10231582_1800.ODF
+2026-03-27 10:52:55,182 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-27 10:52:55,435 [INFO] Filename verified: MTR_BCD2017999_008_10231582_1800.ODF
+2026-03-27 10:52:55,457 [INFO] Metadata loaded and validated (DFO BIO): C:/MTR_Processing/BIO_Data_Processing/ReadyTo_Process_Data/BCD2017999/Hobo/MTR_Hobos_MetaData_BCD2017999.xlsx
+2026-03-27 10:52:55,463 [WARNING] recover_utc missing or empty in metadata; using in-water end.
+2026-03-27 10:52:55,464 [INFO] Determined QC window for MTR_BCD2017999_008_10231582_1800.ODF: 2017-11-15 16:15:00 to 2018-04-24 15:00:00
+2026-03-27 10:52:55,466 [INFO] QC Mode for this file MTR_BCD2017999_008_10231582_1800.ODF:  QC Mode - Review
+(With Previous QC Flags)
+2026-03-27 10:52:55,633 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-27 10:53:01,283 [INFO] Figure: Continue clicked.
+2026-03-27 10:53:01,301 [INFO] Total of 0 unique points selected for flagging.
+2026-03-27 10:53:01,303 [INFO] No points were selected for this file; no changes made.
+2026-03-27 10:53:01,310 [INFO] No quality flag changes were made for MTR_BCD2017999_008_10231582_1800.ODF
+2026-03-27 10:53:01,320 [INFO] Writing file 9 of 9: MTR_BCD2017999_008_10231582_1800.ODF
+2026-03-27 10:53:01,322 [INFO] Please wait...writing QC ODF file...
+2026-03-27 10:53:01,394 [INFO] QC completed for [9/9]: MTR_BCD2017999_008_10231582_1800.ODF
+2026-03-27 10:53:01,396 [INFO] Saved [9/9]: C:\MTR_Processing\BIO_Data_Processing\ReadyTo_Process_Data\BCD2017999\Hobo\Step_3_Review_QFlag_Prodyut Roy_20260327_105124\MTR_BCD2017999_008_10231582_1800.ODF
+2026-03-27 10:53:01,399 [INFO] QC process completed for all 9 files.
+2026-03-27 10:53:01,405 [INFO] QC Thermograph Data task completed successfully.
+2026-03-27 10:53:01,406 [INFO] Finished batch successfully (returned to GUI).
+2026-03-27 10:53:01,409 [INFO] Please Start QC for new batch.
+2026-03-27 10:53:05,556 [INFO] Exit Program clicked — setting exit_requested and quitting.

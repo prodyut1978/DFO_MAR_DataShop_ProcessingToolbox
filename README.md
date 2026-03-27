@@ -1,89 +1,138 @@
-=======
-Seabird
-=======
-
-.. image:: https://zenodo.org/badge/4645/castelao/seabird.svg
-   :target: https://zenodo.org/badge/latestdoi/4645/castelao/seabird
-
-.. image:: https://readthedocs.org/projects/seabird/badge/?version=latest
-   :target: https://readthedocs.org/projects/seabird/?badge=latest
-      :alt: Documentation Status
-
-.. image:: https://img.shields.io/travis/castelao/seabird.svg
-   :target: https://travis-ci.org/castelao/seabird
-
-.. image:: https://codecov.io/gh/castelao/seabird/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/castelao/seabird
-
-.. image:: https://img.shields.io/pypi/v/seabird.svg
-   :target: https://pypi.python.org/pypi/seabird
-
-.. image:: https://mybinder.org/badge_logo.svg
-   :target: https://mybinder.org/v2/gh/castelao/seabird/master?filepath=docs%2Fnotebooks
-
-
-This is a parser for Sea Bird CTD and TSG output files.
-
-The `Sea Bird CTD`_ post processed data usually uses the .cnv extention. The purpose of the PySeabird is to parse this type of files, considering the different versions along the time, as well as different setups.
-
-At this point my goal is to have an object with the attributes parsed from the header, and the data as Masked Arrays, so that the user doesn't need to loose time evaluating the version and details of that cnv, but have it in a standard pattern, ready to use.
-
-ATENTION, this is not an official package, so if you have trouble with it, do not complain to Sea-Bird. Open an issue at GitHub (https://github.com/castelao/seabird/issues), and I'll try to help you.
-
-.. _`Sea Bird CTD`: http://www.seabird.com/software/SBEDataProcforWindows.htm
-
-Support and Documentation
--------------------------
-
-The documentation is available at `seabird.readthedocs.org`_.
-
-The `Seasoft`_ manual might be the best reference for the format used.
-
-If PySeabird doesn't work with your .cnv files, send me a sample (just one .cnv) and I'll fix to run it. The SeaBird changed the format several times along the time, so I need to see what do you have, to adjust PySeabird to work with it.
-
-.. _`seabird.readthedocs.org`: http://seabird.readthedocs.org
-.. _`Seasoft`: http://www.seabird.com/pdf_documents/manuals/Seasoft_4.249Rev05-02.pdf
-
-Quick howto use
----------------
-
-To install:
-
-    pip install seabird
-
-
-One way to use is running on the shell the cnvdump. Independent of the historical version of the cnv file, it will return a default structure:
-
-    seabird cnvdump your_file.cnv
-
-
-To convert a .cnv (CTD output) into a NetCDF file, run:
-
-    seabird cnv2nc your_file.cnv
-
-
-In a python script, one can use like this:
-
-    from seabird.cnv import fCNV
-
-    profile = fCNV('your_file.cnv')
-
-    profile.attrs # It will return the header, as a dictionary.
-
-    profile.keys() # It will list the available variables.
-
-    profile['TEMP2'] # If TEMP2 was on the .keys(), this is how you get the data. It will be a masked array.
-
-
-Check the example notebooks: http://nbviewer.ipython.org/github/castelao/seabird/tree/master/docs/notebooks/
-
-
-License
--------
-
-``seabird`` is licensed under a 3-clause BSD style license - see LICENSE.rst
-
+DFO_MAR_DataShop_ProcessingToolbox
+----------------------------------
+Unclassified – Non Classifié
+Overview
+The DFO_MAR_DataShop_ProcessingToolbox is a Python based data processing and quality control toolbox developed by the Ocean Data Management Group at the Bedford Institute of Oceanography (BIO), Fisheries and Oceans Canada (DFO).
+The toolbox supports the processing, quality control (QC), and archival preparation of oceanographic data, including:
+•	Moored temperature (thermograph) data
+•	CTD data originating from Sea Bird instruments
+The primary goal of this toolbox is to convert raw and semi processed instrument data into DFO’s in house Ocean Data Format (ODF), while enforcing robust, reproducible QC workflows.
 Authors
--------
+•	Jeff Jackson, Fisheries and Oceans Canada (DFO)
+•	Prodyut Kumar Roy, Fisheries and Oceans Canada (DFO)
+Developed and maintained by the Ocean Data Group,
+Bedford Institute of Oceanography (BIO).
 
-Guilherme Castelão <guilherme@castelao.net> and Luiz Irber <luiz.irber@gmail.com>
+
+Installation
+-------------
+1: Requirements
+Requirements
+Python ≥ 3.10
+NumPy, Pandas, Matplotlib
+PySide6 (for GUI QC tools)
+
+2. Setup
+>> Step : 01 >> Create environment: 
+uv venv
+
+>> Step : 02 >> Activate environment: 
+.venv\Scripts\activate
+
+>> Step : 03 >> Install pyproject.toml file: 
+uv sync
+
+<<<<<<<<<<< To Run Datashop_Toolbox MTR Tools >>>>>>>
+>>> uv run run_MTR_tools.py or uv run python -m run_MTR_tools
+
+
+
+Package Structure
+-------------------
+DFO_MAR_DataShop_ProcessingToolbox/
+├── src/
+│   ├── datashop_toolbox/
+│   │   ├── headers/              # ODF header classes
+│   │   ├── thermograph.py        # Thermograph processing core
+│   │   ├── qc_thermograph_data.py  # Run QC on Thermograph Data
+│   │   └── process_mtr_files.py  # Run Processing on Thermograph Data
+│   │
+│   ├── seabird/
+│   │   ├── cnv.py                # Sea Bird CNV parser
+│   │   └── cnv.json              # CNV parsing rules
+│
+│   ├── CoTeDe/
+│   │   ├── qc.py                # Custom user defined QC tests
+├──  Build your own custom tools (e.g. run_SEABIRD_tools.py or run_MTR_tools.py)
+├── README.md
+└── ODF_File_Specification.md
+________________________________________
+
+Core Components:
+----------------------
+
+01: datashop_toolbox (DFO proprietary)
+The datashop_toolbox package is written using Python OOP principles and implements:
+•	Reading and processing of raw moored temperature (MTR) and CTD data
+•	Metadata handling using structured header objects
+•	Quality flag assignment
+•	Writing of data to Ocean Data Format (ODF)
+📄 ODF Specification
+The current ODF format is Version 3.0:
+➡️ https://github.com/jeff-jackson-dfo/datashop_toolbox/blob/master/ODF_File_Specification.md
+
+________________________________________
+02: Sea Bird CNV Parsing (seabird)
+This toolbox includes and extends the PySeabird parser for Sea Bird CNV files.
+Capabilities include:
+•	Parsing CNV files across multiple Sea Bird firmware generations
+•	Robust handling of: 
+o	Commented XML / CDATA blocks
+o	Partially filled metadata (latitude/longitude, station, cast)
+•	Storage of data as NumPy masked arrays
+•	Automatic conversion of DMS latitude/longitude to decimal degrees
+Example usage:
+Python
+from seabird.cnv import fCNV
+profile = fCNV("input_file.CNV")
+
+# Defensive defaults (recommended)
+profile.attrs.setdefault("LATITUDE", "")
+profile.attrs.setdefault("LONGITUDE", "")
+df = profile.as_DataFrame()
+Show more lines
+⚠️ Important note
+The upstream Sea Bird parser assumes certain metadata fields (e.g., LATITUDE, LONGITUDE) always exist.
+This toolbox enforces defensive defaults to avoid runtime failures.
+________________________________________
+03: Quality Control with CoTeDe
+The toolbox integrates CoTeDe, an open source framework for oceanographic QC.
+Key features of CoTeDe:
+•	Predefined QC procedures following: 
+o	GTSPP
+o	QARTOD
+o	Argo
+o	XBT standards
+•	Custom user defined QC tests
+•	Fuzzy logic approaches
+•	Anomaly detection using machine learning
+Relevant references:
+•	Castelão, G.P. (2020), Journal of Open Source Software
+•	Castelão, G.P. (2021), Computers & Geosciences
+📚 Documentation:
+https://cotede.readthedocs.io
+________________________________________
+04: OceansDB (Climatological comparisons)
+For secondary QC and validation, the toolbox can leverage OceansDB:
+•	World Ocean Atlas (WOA)
+•	CSIRO Atlas Regional Seas (CARS)
+•	ETOPO topography
+Example:
+Python
+import oceansdb
+with oceansdb.WOA() as db:
+temp = db["sea_water_temperature"].extract(
+lat=45.0, lon=-60.0, depth=10, doy=150, var="mean"
+)
+Show more lines
+Documentation:
+https://oceansdb.readthedocs.io
+
+
+
+
+
+
+
+
+
