@@ -43,3 +43,13 @@ uv venv
 .venv\Scripts\activate
 #### Step 3: Install dependencies
 uv sync
+
+
+▶️ Run Toolbox
+Run MTR tools
+
+uv run run_MTR_tools.py
+
+or
+
+uv run python -m run_MTR_tools
