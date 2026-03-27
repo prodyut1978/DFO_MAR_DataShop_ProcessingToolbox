@@ -1,0 +1,48 @@
+2026-03-24 15:10:30,438 [INFO] Logger initialized.
+2026-03-24 15:10:30,438 [INFO] Log window initialized.
+2026-03-24 15:10:30,439 [INFO] Application started. Click 'Start Processing of MTR Files' to begin.
+2026-03-24 15:10:42,141 [INFO] 
+========================================
+ MTR DATA PROCESSING — INPUT REQUIRED
+========================================
+
+Please provide all required inputs before starting:
+
+STEP 1 of 6  ➜ Enter data processor name
+STEP 2 of 6  ➜ Choose the correct institution (e.g., DFO BIO, FSRS)
+STEP 3 of 6  ➜ Select the appropriate instrument type
+STEP 4 of 6  ➜ Select metadata file
+STEP 5 of 6  ➜ Select input data folder
+STEP 6 of 6  ➜ Select output data folder
+
+ADDITIONAL SETTINGS:
+ • Use default user meta data if not provide appropiate user metadata
+
+NEXT:
+ • Click 'Start' to begin processing
+ • Select one batch at a time. After finish start new batch
+
+STATUS:
+ • Monitor progress in the terminal
+
+========================================
+2026-03-24 15:10:42,142 [INFO] To Initialize MTR processing please provide all required inputs
+2026-03-24 15:10:58,125 [INFO] Processing Inputs Selected:
+  • QC Operator : Dd
+  • Input Path  : C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\hobo\MTR_Hobos_RAW_CSV
+  • Output Path : C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\hobo
+  • Metadata    : C:/Users/ROYPR/Desktop/DFO-ODIS-SSPPI/processMTR_Data/hobo/MTR_Hobos_MetaData_BCD2014999.xlsx
+  • Institution : BIO
+  • Instrument  : hobo
+  • User Metadata: {'organization': 'DFO BIO', 'chief_scientist': 'ADAM DROZDOWSKI', 'cruise_description': 'LONG TERM TEMPERATURE MONITORING PROGRAM (LTTMP)', 'platform_name': 'BIO CRUISE DATA (NO ICES CODE)', 'country_code': '1810', 'cruise_number': ''}
+  • Batch ID    : MTR_BCD2014999_hobo_BIO
+
+2026-03-24 15:10:58,126 [INFO] 
+=============================================================================================
+............. MTR DATA PROCESSING STARTED ........ PLEASE WAIT UNTILL FINISHED...............
+=============================================================================================
+
+
+2026-03-24 15:11:01,094 [INFO] ✅ MTR processing completed
+2026-03-24 15:11:01,095 [INFO] ✅ MTR processing completed successfully.
+2026-03-24 15:11:08,101 [INFO] Application exiting.

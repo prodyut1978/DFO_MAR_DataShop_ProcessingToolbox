@@ -1,0 +1,39 @@
+if uv not installer>>>
+pip install uv
+uv --version
+
+
+
+Inside the project folder: cd C:\Users\ROYPR\Desktop\DFO_MAR_DataShop_ProcessingToolbox
+
+>> Step : 01 >> Create environment: 
+uv venv
+
+>> Step : 02 >> Activate environment: 
+.venv\Scripts\activate
+
+>> Step : 03 >> Install pyproject.toml file: 
+uv sync
+
+>> Step : 04 >> Check all imports are ok:
+uv run python
+
+
+Then import below >>>>>>
+
+>>> import numpy
+>>> import pandas
+>>> import cotede
+>>> import seabird
+>>> import oceansdb
+>>> import datashop_toolbox
+[INFO] Logger file initialized.
+✅ datashop_toolbox successfully loaded
+import odf_oracle
+If no errors → environment is correct
+Then exit python >>>>
+>>> exit()
+
+<<<<<<<<<<< To Run Datashop_Toolbox MTR Tools >>>>>>>
+>>> uv run run_MTR_tools.py or uv run python -m run_MTR_tools
+

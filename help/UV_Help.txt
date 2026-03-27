@@ -1,0 +1,136 @@
+pip install uv
+uv --version
+
+mkdir my_python_project
+cd my_python_project
+
+uv init
+
+>>.
+This creates something like:
+
+my_python_project/
+│
+├── pyproject.toml
+├── README.md
+├── src/
+│   └── my_python_project/
+│       └── __init__.py
+
+pyproject.toml is the main project configuration file.
+
+Example:
+
+[project]
+name = "my-python-project"
+version = "0.1.0"
+description = "Example uv project"
+requires-python = ">=3.10"
+dependencies = []
+
+
+Create the environment:
+
+uv venv
+
+This creates:
+
+.venv/
+
+Activate environment.
+
+Windows
+.venv\Scripts\activate
+
+remove venv
+
+ rm -r -fo .venv
+
+Open project in VS Code.
+
+File → Open Folder → my_python_project
+
+Then select interpreter:
+
+Ctrl + Shift + P
+Python: Select Interpreter
+
+Choose:
+
+.venv/Scripts/python.exe
+
+Now Run Python File will use the same environment.
+
+5. Install Dependencies
+
+Install packages with uv add.
+
+Example:
+
+uv add pandas
+uv add numpy pandas scipy matplotlib gsw netCDF4
+
+This automatically updates:
+
+pyproject.toml
+uv.lock
+
+
+If you are developing a package:
+
+uv pip install -e .
+
+-e means:
+
+Editable install
+
+Changes in source code immediately reflect in the environment.
+
+Useful for development.
+
+
+8. Build Package (Wheel + Source)
+
+Install build tools:
+
+uv add --dev build
+
+Build distribution:
+
+uv run python -m build
+
+This creates:
+
+dist/
+├── my_python_project-0.1.0.tar.gz
+└── my_python_project-0.1.0-py3-none-any.whl
+
+
+Install Your Wheel
+
+pip install dist/my_python_project-0.1.0-py3-none-any.whl
+
+
+
+11. Common uv Commands
+Command	Purpose
+uv init	create new project
+uv venv	create virtual environment
+uv add package	install dependency
+uv remove package	remove dependency
+uv pip install	pip-compatible install
+uv run python file.py	run script in env
+uv sync	sync environment with lock file
+
+
+
+To Reinstall Environment
+
+Run:
+
+uv sync --reinstall
+
+or if that fails:
+
+uv lock --recreate
+uv sync

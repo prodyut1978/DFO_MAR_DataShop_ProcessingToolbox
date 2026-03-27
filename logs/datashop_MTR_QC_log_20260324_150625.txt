@@ -1,0 +1,87 @@
+2026-03-24 15:06:30,156 [INFO] Logger file initialized.
+2026-03-24 15:06:31,164 [INFO] Log window initialized.
+2026-03-24 15:06:31,170 [INFO] Application started. Use Start QC to begin.
+2026-03-24 15:06:51,487 [INFO] Start QC button clicked.
+2026-03-24 15:06:51,494 [INFO] Initial QC Mode selected.
+2026-03-24 15:07:06,468 [INFO] QC Inputs Selected:
+  • QC Operator : Dd
+  • Input Path  : C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog\Step_1_Create_ODF
+  • Output Path : C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog
+  • Metadata    : C:/Users/ROYPR/Desktop/DFO-ODIS-SSPPI/processMTR_Data/minilog/MTR_Minilog_MetaData_BCD2014999.xlsx
+  • BatchName    : BCD-2014999
+
+2026-03-24 15:07:06,469 [INFO] Starting QC Thermograph Data task by dd on C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog\Step_1_Create_ODF
+2026-03-24 15:07:06,471 [INFO] Changed working dir to the input directory: C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog\Step_1_Create_ODF
+2026-03-24 15:07:06,477 [INFO] Initial QC Mode: No existing output folder found. Creating new folder, name : Step_2_Assign_QFlag
+2026-03-24 15:07:06,482 [INFO] Created output folder: C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog\Step_2_Assign_QFlag
+2026-03-24 15:07:06,483 [INFO] Created a output data folder name, Step_2_Quality_Flagging 
+2026-03-24 15:07:06,485 [INFO] Path for Step_2_Quality_Flagging: C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog\Step_2_Assign_QFlag
+2026-03-24 15:07:06,488 [INFO] Reading file 1 of 2: MTR_BCD2014999_015_354906_300.ODF
+2026-03-24 15:07:06,489 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-24 15:07:07,972 [INFO] Filename verified: MTR_BCD2014999_015_354906_300.ODF
+2026-03-24 15:07:14,197 [INFO] Metadata loaded and validated (DFO BIO): C:/Users/ROYPR/Desktop/DFO-ODIS-SSPPI/processMTR_Data/minilog/MTR_Minilog_MetaData_BCD2014999.xlsx
+2026-03-24 15:07:14,212 [INFO] Determined QC window for MTR_BCD2014999_015_354906_300.ODF: 2014-05-07 19:01:00 to 2014-11-04 21:16:00
+2026-03-24 15:07:14,213 [INFO] QC Mode for this file MTR_BCD2014999_015_354906_300.ODF:  QC Mode - Initial
+(No Previous QC Flags)
+2026-03-24 15:07:15,388 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-24 15:07:26,259 [INFO] Figure: Continue clicked.
+2026-03-24 15:07:26,274 [INFO] Total of 0 unique points selected for flagging.
+2026-03-24 15:07:26,279 [INFO] No points were selected for this file.
+2026-03-24 15:07:26,283 [INFO] Initial QC: applied default flags with QC window boundaries.
+2026-03-24 15:07:26,304 [INFO] Flag Code: 0 to Flag Code: 1: 41853
+2026-03-24 15:07:26,305 [INFO] Flag Code: 0 to Flag Code: 4: 10849
+2026-03-24 15:07:26,306 [INFO] Total QC flags changed for MTR_BCD2014999_015_354906_300.ODF: 52702
+2026-03-24 15:07:26,323 [INFO] Writing file 1 of 2: MTR_BCD2014999_015_354906_300.ODF
+2026-03-24 15:07:26,325 [INFO] Please wait...writing QC ODF file...
+2026-03-24 15:07:26,675 [INFO] QC completed for [1/2]: MTR_BCD2014999_015_354906_300.ODF
+2026-03-24 15:07:26,677 [INFO] Saved [1/2]: C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog\Step_2_Assign_QFlag\MTR_BCD2014999_015_354906_300.ODF
+2026-03-24 15:07:26,678 [INFO] Reading file 2 of 2: MTR_BCD2014999_022_354906_300.ODF
+2026-03-24 15:07:26,680 [INFO] Please wait...reading ODF file for QC visualization...
+2026-03-24 15:07:27,596 [INFO] Filename verified: MTR_BCD2014999_022_354906_300.ODF
+2026-03-24 15:07:27,650 [INFO] Metadata loaded and validated (DFO BIO): C:/Users/ROYPR/Desktop/DFO-ODIS-SSPPI/processMTR_Data/minilog/MTR_Minilog_MetaData_BCD2014999.xlsx
+2026-03-24 15:07:27,664 [INFO] Determined QC window for MTR_BCD2014999_022_354906_300.ODF: 2014-06-11 12:50:00 to 2015-06-05 23:50:00
+2026-03-24 15:07:27,666 [INFO] QC Mode for this file MTR_BCD2014999_022_354906_300.ODF:  QC Mode - Initial
+(No Previous QC Flags)
+2026-03-24 15:07:27,965 [INFO] QC Point Selection Tips:
+- Use the Lasso tool (click and drag) to select multiple data points.
+- Single points can also be selected using a mouse click.
+- Choose the desired quality flag using the radio buttons BEFORE selecting points.
+- Only select points that appear problematic or questionable.
+- Focus primarily on flags:
+    2: Inconsistent
+    3: Doubtful
+    4: Erroneous
+    5: Modified
+- Points not selected will automatically be assigned flag 1 (Correct) when you click 'Continue Next >>'.
+- Use 'Undo All Selections' to clear all current selections and start over.
+- Click 'Continue Next >>' to apply flags and proceed to the next file.
+- Click 'Exit' to stop the QC process immediately.
+2026-03-24 15:07:31,909 [INFO] Figure: Continue clicked.
+2026-03-24 15:07:31,924 [INFO] Total of 0 unique points selected for flagging.
+2026-03-24 15:07:31,928 [INFO] No points were selected for this file.
+2026-03-24 15:07:31,932 [INFO] Initial QC: applied default flags with QC window boundaries.
+2026-03-24 15:07:31,949 [INFO] Flag Code: 0 to Flag Code: 4: 8366
+2026-03-24 15:07:31,951 [INFO] Flag Code: 0 to Flag Code: 1: 43909
+2026-03-24 15:07:31,952 [INFO] Total QC flags changed for MTR_BCD2014999_022_354906_300.ODF: 52275
+2026-03-24 15:07:31,968 [INFO] Writing file 2 of 2: MTR_BCD2014999_022_354906_300.ODF
+2026-03-24 15:07:31,970 [INFO] Please wait...writing QC ODF file...
+2026-03-24 15:07:32,183 [INFO] QC completed for [2/2]: MTR_BCD2014999_022_354906_300.ODF
+2026-03-24 15:07:32,184 [INFO] Saved [2/2]: C:\Users\ROYPR\Desktop\DFO-ODIS-SSPPI\processMTR_Data\minilog\Step_2_Assign_QFlag\MTR_BCD2014999_022_354906_300.ODF
+2026-03-24 15:07:32,185 [INFO] QC process completed for all 2 files.
+2026-03-24 15:07:32,189 [INFO] QC Thermograph Data task completed successfully.
+2026-03-24 15:07:32,191 [INFO] Finished batch successfully (returned to GUI).
+2026-03-24 15:07:32,194 [INFO] Please Start QC for new batch.
+2026-03-24 15:07:35,426 [INFO] Exit Program clicked — setting exit_requested and quitting.

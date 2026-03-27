@@ -1,0 +1,31 @@
+2026-03-25 09:16:53,119 [INFO] Logger initialized.
+2026-03-25 09:16:53,119 [INFO] Log window initialized.
+2026-03-25 09:16:53,120 [INFO] Application started. Click 'Start Processing of MTR Files' to begin.
+2026-03-25 09:16:57,489 [INFO] 
+========================================
+ MTR DATA PROCESSING — INPUT REQUIRED
+========================================
+
+Please provide all required inputs before starting:
+
+STEP 1 of 6  ➜ Enter data processor name
+STEP 2 of 6  ➜ Choose the correct institution (e.g., DFO BIO, FSRS)
+STEP 3 of 6  ➜ Select the appropriate instrument type
+STEP 4 of 6  ➜ Select metadata file
+STEP 5 of 6  ➜ Select input data folder
+STEP 6 of 6  ➜ Select output data folder
+
+ADDITIONAL SETTINGS:
+ • Use default user meta data if not provide appropiate user metadata
+
+NEXT:
+ • Click 'Start' to begin processing
+ • Select one batch at a time. After finish start new batch
+
+STATUS:
+ • Monitor progress in the terminal
+
+========================================
+2026-03-25 09:16:57,491 [INFO] To Initialize MTR processing please provide all required inputs
+2026-03-25 09:17:09,047 [INFO] MTR Processing start aborted: missing input, output, or operator.
+2026-03-25 09:17:10,584 [INFO] Application exiting.
