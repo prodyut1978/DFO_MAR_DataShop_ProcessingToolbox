@@ -17,7 +17,3 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Data files (important for your CNV workflow)
-sampledata/
-*.cnv
-*.xml
