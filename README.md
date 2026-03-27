@@ -60,25 +60,31 @@ uv sync
    uv run python -m run_MTR_tools
 
 ## 📁 Package Structure
+
+## Repository Structure
+
+```text
 DFO_MAR_DataShop_ProcessingToolbox/
 ├── src/
-│ ├── datashop_toolbox/
-│ │ ├── headers/ # ODF header classes
-│ │ ├── thermograph.py # Thermograph processing core
-│ │ ├── qc_thermograph_data.py # QC for thermograph data
-│ │ └── process_mtr_files.py # MTR processing pipeline
-│ │
-│ ├── seabird/
-│ │ ├── cnv.py # Sea-Bird CNV parser
-│ │ └── cnv.json # CNV parsing rules
-│ │
-│ ├── CoTeDe/
-│ │ └── qc.py # Custom QC tests
+│   ├── datashop_toolbox/
+│   │   ├── headers/                     # ODF header classes
+│   │   ├── thermograph.py               # Thermograph processing core
+│   │   ├── qc_thermograph_data.py       # QC for thermograph data
+│   │   └── process_mtr_files.py         # MTR processing pipeline
+│   │
+│   ├── seabird/
+│   │   ├── cnv.py                       # Sea-Bird CNV parser
+│   │   └── cnv.json                     # CNV parsing rules
+│   │
+│   ├── CoTeDe/
+│   │   └── qc.py                        # Custom QC tests
 │
-├── run_SEABIRD_tools.py # Example runner
-├── run_MTR_tools.py # Example runner
+├── run_SEABIRD_tools.py                 # Example Sea-Bird runner
+├── run_MTR_tools.py                     # Example MTR runner
 ├── README.md
 └── ODF_File_Specification.md
+``
+
 
 
 ## 🧩 Core Components
